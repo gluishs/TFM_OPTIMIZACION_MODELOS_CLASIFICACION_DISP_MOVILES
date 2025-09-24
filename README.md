@@ -2,13 +2,13 @@
 
 > Trabajo Fin de Máster (VIU, 2025). Investigación aplicada para equilibrar **precisión y eficiencia** en clasificación de imágenes ejecutada **on-device** en móviles y sistemas embebidos.
 
----
+
 
 ## 📌 Descripción
 Este proyecto evalúa técnicas de optimización para llevar modelos de **aprendizaje profundo** a dispositivos con **memoria, cómputo y energía limitados**. Se compara un **Teacher** de alta capacidad (**Vision Transformer – ViT Base**) frente a un **Student** eficiente (**MobileNetV3 Small**), entrenado en modo clásico y con **Knowledge Distillation (KD)**.  
 El estudio se realiza sobre **Food-101** (101 clases, >100k imágenes), un escenario multiclase exigente y representativo para despliegue móvil
 
----
+
 
 ## 🎯 Objetivos
 - Investigar la viabilidad de clasificación multiclase **on-device** manteniendo precisión competitiva.
@@ -16,7 +16,7 @@ El estudio se realiza sobre **Food-101** (101 clases, >100k imágenes), un escen
 - Comparar **precisión**, **tamaño del modelo**, **latencia** (proyección a móvil) y **uso de memoria**.
 - Demostrar que **KD** mejora la **generalización** del Student manteniendo un tamaño reducido (≤10 MB; ideal ≤5 MB).
 
----
+
 
 ## ⚙️ Metodología
 - **Dataset**: [Food-101](https://data.vision.ee.ethz.ch/cvl/datasets_extra/food-101/)  
@@ -31,7 +31,7 @@ El estudio se realiza sobre **Food-101** (101 clases, >100k imágenes), un escen
   - **Tamaño del modelo** (MB) y **latencia** (medición en PC + proyección a móvil por gama).
   - Discusión de compromisos **precisión ↔ eficiencia** para despliegue real.
 
----
+
 
 ## 📊 Resultados principales
 
@@ -43,7 +43,7 @@ El estudio se realiza sobre **Food-101** (101 clases, >100k imágenes), un escen
 
 > Resumen: **KD logra un salto del 73% al 90% en accuracy**, validando su eficacia para optimizar modelos ligeros sin incrementar el tamaño, lo que lo hace adecuado para **dispositivos móviles de gama media y baja**.
 
----
+
 
 ## 🧪 Reproducibilidad
 
