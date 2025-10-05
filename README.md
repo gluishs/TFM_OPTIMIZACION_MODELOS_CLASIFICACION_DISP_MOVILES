@@ -80,7 +80,8 @@ Repositorio: [TFM_OPTIMIZACION_MODELOS_CLASIFICACION_DISP_MOVILES](https://githu
 Este repositorio **no está orientado a instalación como paquete**, sino como proyecto académico/documental del TFM.  
 Su propósito es **explorar, reproducir y analizar** entrenamientos y resultados.  
 
-- Para revisar los experimentos → abrir los notebooks en `notebooks/`.  
+- Para revisar los experimentos → abrir los notebooks en `notebooks/`.
+- Importante: No se sube el modelo entrenado de ViT Base ya que su peso es superior a 330MB
 - Para ver modelos ya entrenados → carpeta `models/`.  
 - Para consultar resultados de métricas y gráficas → carpeta `results/`.  
 - Para revisar código auxiliar y funciones → carpeta `src/`.
